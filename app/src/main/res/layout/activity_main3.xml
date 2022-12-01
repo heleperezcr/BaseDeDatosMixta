@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar registro"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="7dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_nombre"
+        android:textSize="16dp"
+        android:hint="Nombre completo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escuela de procedencia"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_escuela"
+        android:textSize="16dp"
+        android:hint="Escuela de procedencia"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono celular"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_telefono"
+        android:inputType="number"
+        android:textSize="16dp"
+        android:hint="Telefono celular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrera No. 1"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_carrera1"
+        android:textSize="16dp"
+        android:hint="Carrera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrera No. 2"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_carrera2"
+        android:textSize="16dp"
+        android:hint="Carrera"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo electronico"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_correo"
+        android:textSize="16dp"
+        android:hint="Correo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textSize="16dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/act_fecha"
+        android:textSize="16dp"
+        android:hint="MMM dd yyyy, hh:mm:ss a"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:backgroundTint="@color/white"
+        android:textColor="#000"
+        android:id="@+id/actualizar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="regresar"
+        android:backgroundTint="@color/white"
+        android:textColor="#000"
+        android:id="@+id/regresar"/>
+
+
+
+</LinearLayout>
